@@ -1,8 +1,8 @@
 #!/bin/bash
-echo "cloning projects"
 if [ -d "WORKSPACE" ]; then
   cd WORKSPACE/ADV_CPP_UTLS
 else
+  echo "cloning projects"
   mkdir WORKSPACE
   cd WORKSPACE
   git clone https://khanda89:mkhanda123@github.com/khanda89/ADV_CPP_UTLS.git
