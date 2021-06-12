@@ -1,2 +1,12 @@
 #!/bin/bash
-echo "manoj"
+echo "cloning projects"
+if [ -d "WORKSPACE" ]; then
+  cd WORKSPACE/ADV_CPP_UTLS
+else
+  mkdir WORKSPACE
+  cd WORKSPACE
+  git clone https://khanda89:mkhanda123@github.com/mkhanda89/ADV_CPP_UTLS.git
+  cd ADV_CPP_UTLS
+fi
+make
+./app
