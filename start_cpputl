@@ -8,5 +8,10 @@ else
   git clone https://khanda89:mkhanda123@github.com/khanda89/ADV_CPP_UTLS.git
   cd ADV_CPP_UTLS
 fi
-make
+
+if [ -f "app" ]; then
+  echo "app exists."
+else
+  make
+fi
 ./app
