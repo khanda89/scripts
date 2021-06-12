@@ -5,7 +5,7 @@ if [ -d "WORKSPACE" ]; then
 else
   mkdir WORKSPACE
   cd WORKSPACE
-  git clone https://khanda89:mkhanda123@github.com/mkhanda89/ADV_CPP_UTLS.git
+  git clone https://khanda89:mkhanda123@github.com/khanda89/ADV_CPP_UTLS.git
   cd ADV_CPP_UTLS
 fi
 make
